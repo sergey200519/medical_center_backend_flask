@@ -35,7 +35,7 @@ def add_reviews():
         })
     
 @app.route("/services/dentistry", methods=["GET"])
-def add_dentistry():
+def get_dentistry():
     with open("services.json", encoding="utf-8") as json_file:
         data = OrderedDict(json.load(json_file, object_pairs_hook=OrderedDict))
     # print(data)
@@ -44,7 +44,7 @@ def add_dentistry():
     return jsonify(data)
 
 @app.route("/services/laboratory", methods=["GET"])
-def add_dentistry():
+def get_laboratory():
     with open("services_lab.json", encoding="utf-8") as json_file:
         data = OrderedDict(json.load(json_file, object_pairs_hook=OrderedDict))
     return jsonify(data)
