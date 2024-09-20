@@ -43,6 +43,14 @@ def add_dentistry():
     # print(dict(reversed(data.items())))
     return jsonify(data)
 
+@app.route("/services/laboratory", methods=["GET"])
+def add_dentistry():
+    with open("services_lab.json", encoding="utf-8") as json_file:
+        data = OrderedDict(json.load(json_file, object_pairs_hook=OrderedDict))
+    return jsonify(data)
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
     logging.getLogger("flask_cors").level = logging.DEBUG
