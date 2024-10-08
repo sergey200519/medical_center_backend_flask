@@ -20,11 +20,11 @@ database = ORM()
 def index():
     return "Hi"
 
-@app.route("/reviews/", methods=["GET"])
+@app.route("/reviewsssss/", methods=["GET"])
 def get_reviews():
     return jsonify(database.get_all(Review))
 
-@app.route("/reviews/", methods=["POST"])
+@app.route("/reviewsssss/", methods=["POST"])
 def add_reviews():
     try:
         return jsonify(database.insert(Review, request.json))
