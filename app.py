@@ -49,6 +49,12 @@ def get_laboratory():
         data = OrderedDict(json.load(json_file, object_pairs_hook=OrderedDict))
     return jsonify(data)
 
+@app.route("/data", methods=["GET"])
+def get_data():
+    with open("data.json", encoding="utf-8") as json_file:
+        data = OrderedDict(json.load(json_file, object_pairs_hook=OrderedDict))
+    return jsonify(data)
+
 
 
 if __name__ == "__main__":
