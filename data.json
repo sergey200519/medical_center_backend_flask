@@ -2,88 +2,33 @@
   "products": [
     {
       "name": "Apple",
-      "brand": "FreshFarm",
-      "price": 1.5,
+      "price": 150,
       "weight": "150 g",
-      "category": "Fruit",
-      "origin": "USA",
-      "reviews": [
-        {
-          "author": "JohnDoe",
-          "rating": 5,
-          "comment": "Crisp and sweet, perfect for a snack!"
-        },
-        {
-          "author": "JaneSmith",
-          "rating": 4,
-          "comment": "Good, but some were a bit bruised."
-        }
-      ]
+      "category": "Fruit"
     },
     {
       "name": "Banana",
-      "brand": "TropicalHarvest",
-      "price": 1.2,
+      "price": 120,
       "weight": "120 g",
-      "category": "Fruit",
-      "origin": "Ecuador",
-      "reviews": [
-        {
-          "author": "FruitLover22",
-          "rating": 5,
-          "comment": "Great taste, very fresh!"
-        }
-      ]
+      "category": "Fruit"
     },
     {
       "name": "Orange",
-      "brand": "CitrusWorld",
-      "price": 2.0,
+      "price": 200,
       "weight": "180 g",
       "category": "Fruit",
-      "origin": "Spain",
-      "reviews": [
-        {
-          "author": "HealthyEater",
-          "rating": 4,
-          "comment": "Juicy, but a bit too sour for my taste."
-        }
-      ]
     },
     {
       "name": "Strawberry",
-      "brand": "BerryFarm",
-      "price": 3.0,
+      "price": 300,
       "weight": "250 g",
-      "category": "Fruit",
-      "origin": "Poland",
-      "reviews": [
-        {
-          "author": "SummerLover",
-          "rating": 5,
-          "comment": "So fresh and delicious!"
-        },
-        {
-          "author": "BerryFan",
-          "rating": 5,
-          "comment": "Best strawberries I’ve had this season."
-        }
-      ]
+      "category": "Fruit"
     },
     {
       "name": "Pineapple",
-      "brand": "TropicalDelight",
-      "price": 4.5,
+      "price": 450,
       "weight": "1 kg",
       "category": "Fruit",
-      "origin": "Costa Rica",
-      "reviews": [
-        {
-          "author": "ExoticFruitFan",
-          "rating": 5,
-          "comment": "Perfect balance of sweet and tart."
-        }
-      ]
     }
   ]
 }
