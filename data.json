@@ -16,7 +16,7 @@
       "name": "Orange",
       "price": 200,
       "weight": "180 g",
-      "category": "Fruit",
+      "category": "Fruit"
     },
     {
       "name": "Strawberry",
@@ -28,7 +28,7 @@
       "name": "Pineapple",
       "price": 450,
       "weight": "1 kg",
-      "category": "Fruit",
+      "category": "Fruit"
     }
   ]
 }
